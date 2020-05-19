@@ -1,0 +1,30 @@
+<?header("Content-type:text/css");
+
+/* variable */
+
+$BLUE = '#000071';
+$RED = '#ff4200';
+$FS = 55;
+$EL = 'html > head + * *';
+
+/* - - - */
+
+echo strtr('
+
+/* css */
+
+EL 
+{
+	color: RED;
+	background: BLUE;
+	font-size: FSpx;
+}
+
+body 
+{
+	background: RED;
+}
+
+/* - - - */
+
+',get_defined_vars())?>
