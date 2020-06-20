@@ -8,7 +8,7 @@ _CSS in PHP_
 
 ### Input:
 
-```php
+```css
 
 <?header("Content-type:text/css");
 
